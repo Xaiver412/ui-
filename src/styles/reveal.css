@@ -1,0 +1,67 @@
+.reveal {
+  opacity: 0;
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal--from-bottom {
+  transform: translateY(48px);
+}
+
+.reveal--from-left {
+  transform: translateX(-40px);
+}
+
+.reveal--from-right {
+  transform: translateX(40px);
+}
+
+.reveal--scale {
+  transform: scale(0.95);
+}
+
+.reveal--rotate {
+  transform: translateY(32px) rotate(-1deg);
+}
+
+.reveal--visible {
+  opacity: 1;
+}
+
+.reveal--visible.reveal--from-bottom,
+.reveal--visible.reveal--from-left,
+.reveal--visible.reveal--from-right,
+.reveal--visible.reveal--scale,
+.reveal--visible.reveal--rotate {
+  transform: translateY(0) translateX(0) scale(1) rotate(0deg);
+}
+
+/* ---- Stagger container ---- */
+.stagger-container {
+  display: contents;
+}
+
+/* ---- Folder card effect: slight perspective skew ---- */
+.reveal--folder {
+  opacity: 0;
+  transform: translateY(60px) rotateX(-8deg);
+  transform-origin: top center;
+  perspective: 1000px;
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal--folder.reveal--visible {
+  opacity: 1;
+  transform: translateY(0) rotateX(0deg);
+}
+
+/* ---- Image parallax wrapper ---- */
+.parallax-wrap {
+  overflow: hidden;
+}
+
+.parallax-img {
+  transition: transform 0.1s linear;
+  will-change: transform;
+}
