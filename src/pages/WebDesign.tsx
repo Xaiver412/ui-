@@ -10,9 +10,9 @@ const projects = [
     year: '2026',
     tags: ['网页设计', '品牌官网', '日式风格'],
     description: '为《JOJO的奇妙冒险》重设计的日式官网，还原原作的独特美学与视觉张力，融合暗紫+金黄的标志性配色体系。',
-    url: '/src/网页设计/jojo-index.html',
+    url: '/网页设计/jojo-index.html',
     color: '#D4337A',
-    img: '/src/jojo-cover.png',
+    img: '/jojo-cover.png',
   },
 ]
 

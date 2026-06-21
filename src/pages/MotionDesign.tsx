@@ -3,15 +3,15 @@ import { usePage } from '../context/PageContext'
 import '../styles/showcase.css'
 
 const videos = [
-  { id: '01', title: '动效 01', duration: '', videoUrl: 'src/assets/动效1.mp4' },
-  { id: '02', title: '动效 02', duration: '', videoUrl: 'src/assets/动效2.mp4' },
-  { id: '03', title: '动效 03', duration: '', videoUrl: 'src/assets/动效3.mp4' },
-  { id: '04', title: '动效 04', duration: '', videoUrl: 'src/assets/动效4.mp4' },
-  { id: '05', title: '动效 05', duration: '', videoUrl: 'src/assets/动效5.mp4' },
-  { id: '06', title: '动效 06', duration: '', videoUrl: 'src/assets/动效6.mp4' },
-  { id: '07', title: '动效 07', duration: '', videoUrl: 'src/assets/动效7.mp4' },
-  { id: '08', title: '动效 08', duration: '', videoUrl: 'src/assets/动效8.mp4' },
-  { id: '09', title: '动效 09', duration: '', videoUrl: 'src/assets/动效9.mp4' },
+  { id: '01', title: '动效 01', duration: '', videoUrl: '/videos/动效1.mp4' },
+  { id: '02', title: '动效 02', duration: '', videoUrl: '/videos/动效2.mp4' },
+  { id: '03', title: '动效 03', duration: '', videoUrl: '/videos/动效3.mp4' },
+  { id: '04', title: '动效 04', duration: '', videoUrl: '/videos/动效4.mp4' },
+  { id: '05', title: '动效 05', duration: '', videoUrl: '/videos/动效5.mp4' },
+  { id: '06', title: '动效 06', duration: '', videoUrl: '/videos/动效6.mp4' },
+  { id: '07', title: '动效 07', duration: '', videoUrl: '/videos/动效7.mp4' },
+  { id: '08', title: '动效 08', duration: '', videoUrl: '/videos/动效8.mp4' },
+  { id: '09', title: '动效 09', duration: '', videoUrl: '/videos/动效9.mp4' },
 ]
 
 function useScrollReveal(delay = 0): [React.RefObject<HTMLDivElement>, boolean] {
