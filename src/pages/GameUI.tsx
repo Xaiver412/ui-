@@ -62,7 +62,7 @@ export default function GameUI() {
           <p className="tag-mono gameui__panorama-label">长图展示 · 上下滚动查看全部</p>
           <div className="gameui__panorama-scroll">
             <img
-              src="/src/assets/gameui-cover.png"
+              src="/gameui-cover.jpg"
               alt="Game UI Long Image"
               className="gameui__panorama-img"
             />
